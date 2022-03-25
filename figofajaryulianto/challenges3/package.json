@@ -1,0 +1,27 @@
+{
+  "name": "challenge03",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "SET DEBUG=challenges3:* & nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "nodemon": "^2.0.15"
+  },
+  "main": "app.js",
+  "author": "figofajar",
+  "license": "ISC",
+  "description": ""
+}

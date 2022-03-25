@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <%- include('layouts/head') %>
+  <body>
+    <form action="/dashboard" method="postPOST">
+      <section class="vh-100">
+        <div class="container-fluid">
+          <div class="row login">
+            <% if(locals.logout) { %>
+            <div class="alert alert-success" role="alert"><%=logout %></div>
+
+            <% }%>
+            <div class="col-8 left-side">
+              <img
+                src="images/img-mobil.png"
+                class="w-100 vh-100"
+                style="object-fit: cover"
+                alt=""
+              />
+            </div>
+            <div class="col-4">
+              <div class="form-head">
+                <img src="images/logo-bcr.png" alt="" />
+                <h1>Welcome back</h1>
+              </div>
+
+              <div class="form-content">
+                <form action="">
+                  <div class="mb-3">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="inputEmail"
+                      placeholder="Contoh: johndee@gmail.com"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputPassword" class="form-label"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="inputPassword"
+                      placeholder="6+ karakter"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign In</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </form>
+  </body>
+</html>
