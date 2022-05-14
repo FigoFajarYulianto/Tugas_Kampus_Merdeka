@@ -1,0 +1,51 @@
+.footer {
+  margin-bottom: 100px;
+}
+
+.footer .address-list ul {
+  list-style: none;
+}
+
+.footer .address-list ul li {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.footer .nav-list ul {
+  list-style: none;
+}
+
+.footer .nav-list ul li {
+  margin-bottom: 16px;
+}
+
+.footer .nav-list ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+.footer .nav-list ul li a:hover {
+  color: #0d28a6;
+}
+
+.footer .sosmed-list p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.footer .sosmed-list a {
+  margin-right: 16px;
+}
+
+.footer .copyright p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
