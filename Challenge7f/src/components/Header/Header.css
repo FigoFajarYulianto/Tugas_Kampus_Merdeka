@@ -1,0 +1,67 @@
+/* ********** NAVIGATION SECTION BEGIN ********** */
+.headerSection {
+    background-color: #F1F3FF;
+}
+
+.fixedPosition {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.navigationSection .navbar-brand img {
+    margin-left: 15px;
+    height: 36px;
+}
+
+.navigationSection .navbar-nav .nav-item a:hover {
+    color: blue !important;
+}
+
+.navPosition {
+    position: relative;
+    top: 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000 !important;
+    border-color: #000000;
+}
+
+.btnRegister {
+    height: 36px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    background-color: #5CB85F;
+    position: relative;
+    top: 24px;
+}
+
+.btnRegister:hover,
+.btnRegister:focus {
+    background-color: #5CB85F;
+    opacity: 60%;
+}
+
+.btnToggler img {
+    width: 30px;
+    height: auto;
+}
+
+.btnToggler {
+    border: 2px solid black;
+}
+
+.btnToggler:hover,
+.btnToggler:focus {
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+
+/* ********** NAVIGATION SECTION END ********** */

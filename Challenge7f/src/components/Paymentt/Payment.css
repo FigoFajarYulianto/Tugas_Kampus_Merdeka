@@ -1,0 +1,29 @@
+.paymentFlowSection {
+    background-color: #F1F3FF;
+    position: relative;
+    top: -140px;
+    margin-bottom: -140px;
+}
+
+.paymentFlowSection p {
+    margin: 0;
+}
+
+hr {
+    border-top: 2px solid #0D28A6;
+    width: 100%;
+    opacity: 100%;
+}
+
+.orderId {
+    width: 80%;
+    margin-left: 90px;
+}
+
+@media only screen and (min-width: 1000px) {
+    hr {
+        border-top: 2px solid #0D28A6;
+        width: 10%;
+        opacity: 100%;
+    }
+}

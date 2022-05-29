@@ -1,0 +1,70 @@
+/* ********** HERO SECTION BEGIN ********** */
+
+.heroSection {
+    background-color: #F1F3FF;
+    position: relative;
+    top: -140px;
+    margin-bottom: -140px;
+}
+
+.heroDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Helvetica;
+    padding-bottom: 40px;
+}
+
+.heroDesc h1 {
+    max-width: 568px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.heroDesc p {
+    max-width: 468px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btnRentNow {
+    width: 140px;
+    height: 36px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    background-color: #5CB85F;
+}
+
+.btnRentNow:hover,
+.btnRentNow:focus {
+    background-color: #5CB85F;
+    opacity: 60%;
+}
+
+.imgCar {
+    width: 49.46vw;
+}
+
+/* ********** HERO SECTION END ********** */
+
+/* ********** @MEDIA SCREEN BEGIN ********** */
+
+@media only screen and (min-width: 0) and (max-width: 1500px) {
+    .imgCar {
+        width: 100%;
+    }
+}
+
+/* ********** @MEDIA SCREEN END ********** */

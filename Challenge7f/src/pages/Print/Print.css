@@ -1,0 +1,44 @@
+.notificationSuccess {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    /* width: 80%; */
+}
+
+.invoicePreviewSection {
+    width: 80%;
+}
+
+.invoiceCard {
+    border-radius: 8px;
+}
+
+.btnDownloadInvoice {
+    border: 2px solid blue;
+    color: blue;
+}
+
+.btnDownloadInvoice:hover,
+.btnDownloadInvoice:focus {
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+}
+
+.invoiceSection {
+    /* max-width: 850px; */
+}
+
+.pdfViewer {
+    height: 850px;
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+@media only screen and (min-width: 1000px) {
+    hr {
+        border-top: 2px solid #0D28A6;
+        width: 10%;
+        opacity: 100%;
+    }
+}
